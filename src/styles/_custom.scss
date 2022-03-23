@@ -1,0 +1,16 @@
+.autox-bell{
+    position: absolute;
+    display: inline-block;
+    margin-left: 15em;
+    width: 1.5em;
+    height: 1.5em;
+    font-size: 1.5em;
+    top: 15%;
+    z-index: -4444;
+}
+
+@media only screen and (max-width: 768px) {
+    .autox-bell{
+        font-size: 4em;
+    }
+}
