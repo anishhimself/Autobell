@@ -36,6 +36,7 @@ button {
   padding: 0;
 
   .btn-text {
+    color:#fff;
     font-weight: $font-weight-bold-two;
     font-size: $font-size-small;
   }
@@ -67,13 +68,15 @@ button {
 .input-btn {
   &.custom-btn-primary {
     position: relative;
-    border: $border-default;
+    border: #758696;
     border-radius: $border-radius-default;
     background-color: $btn-bg;
     -webkit-transition: $layout-transition-speed;
     transition: $layout-transition-speed;
 
     .btn-text {
+      color: #fff !important;
+
       -webkit-transition: $layout-transition-speed;
       transition: $layout-transition-speed;
     }
@@ -82,7 +85,7 @@ button {
       background-color: $primary-bg;
 
       .btn-text {
-        color: $white !important;
+        color: #fff !important;
         -webkit-transition: $layout-transition-speed;
         transition: $layout-transition-speed;
       }
@@ -172,6 +175,7 @@ body.user-is-tabbing button:focus {
     transition: $layout-transition-speed;
 
     .btn-text {
+      color: #FFFFFF;
       font-weight: $font-weight-normal;
       -webkit-transition: $layout-transition-speed;
       transition: $layout-transition-speed;

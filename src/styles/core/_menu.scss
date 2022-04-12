@@ -37,7 +37,7 @@
 
 .navigation-menu {
   height: 100%;
-  background-color: $theme-white;
+  background-color: $theme-black;
 
   .menu-header {
     border-bottom: $border-default;
@@ -59,7 +59,7 @@
     .menu-list {
       .menu-item {
         a {
-          color: $font-custom-color !important;
+          color: #fff !important;
           font-weight: $font-weight-bold-one;
           text-transform: capitalize;
           display: block;

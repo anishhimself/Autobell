@@ -46,7 +46,7 @@
   }
 
   .product-container {
-    background-color: $white;
+    background-color: $theme-black;
     box-shadow: $box-shadow-primary;
     border-radius: $border-radius-default;
     height: 100%;
@@ -78,13 +78,13 @@
         position: relative;
 
         .item-image-box {
-          padding-bottom: 100%;
+          padding-bottom: 100%; 
           position: relative;
           -webkit-box-flex: 1;
           -webkit-flex-grow: 1;
           -ms-flex-positive: 1;
           flex-grow: 1;
-          background-color: $white;
+          background-color: $theme-black;
           -webkit-filter: brightness(0.975);
           filter: brightness(0.975);
 
@@ -150,7 +150,7 @@
   }
 
   .product-container {
-    background-color: $white;
+    background-color: $theme-black;
     padding: 20px;
     box-shadow: $box-shadow-primary;
     border-radius: $border-radius-default;
@@ -211,19 +211,20 @@
   }
 
   .item-label {
-    color: $font-custom-color;
+    background-color: $theme-black;
+    color: $white;
     font-weight: $font-weight-bold-one;
     text-transform: capitalize;
   }
 
   .item-value {
-    color: $font-custom-color;
+    color: $white;
     font-weight: $font-weight-bold-two;
     font-size: $font-size-large;
   }
 
   .price {
-    color: $font-custom-color;
+    color: $white;
     font-weight: $font-weight-bold-one;
     font-size: $font-size-huge;
   }

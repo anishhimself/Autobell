@@ -77,10 +77,9 @@ const rating = v => {
 
 const ProductFilter = props => {
   const { filterProducts } = props;
-
   return (
-    <div className='product-filter'>
-      <Card className='mb-4' >
+    <div className='product-filter'  >
+      <Card className='mb-4' style={{ backgroundColor:'#3f3f3f'}}>
         <CardHeader tag='h3'>Price</CardHeader>
         <CardBody>
           <div className='mx-2 mb-3' style={{ width:'11rem'}}>
@@ -94,7 +93,7 @@ const ProductFilter = props => {
           </div>
         </CardBody>
       </Card>
-      <Card>
+      <Card style={{ backgroundColor:'#3f3f3f'}}>
         <CardHeader tag='h3'>Rating</CardHeader>
         <CardBody>
           <div className='mx-2 mb-4'>

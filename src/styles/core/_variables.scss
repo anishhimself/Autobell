@@ -12,7 +12,7 @@ $theme-blue: #2979ff;
 $theme-purple: #727cb6;
 $theme-white: #f6f7f8;
 $theme-light-white: #f0f0f0;
-$theme-light-blue-white: #e8f0fe;
+$theme-light-blue-white: #3b3b3b;
 
 $theme-black: #121212;
 $theme-light-black: #24292e;
@@ -76,7 +76,7 @@ $font-weight-bold-two: 600;
 $font-weight-bold-three: 700;
 
 // layout variables
-$btn-bg: $white;
+$btn-bg: #000;
 $btn-bg-hover: $theme-yellow;
 $font-color: #65676b;
 $font-light-color: #00000026;
@@ -84,8 +84,8 @@ $font-custom-color: $theme-black;
 $font-custom-hover-color: $theme-yellow;
 $font-hover-color: $theme-yellow;
 $font-focus-color: $black;
-$font-heading-color: #fff;
-$border-color-default: #26282b;
+$font-heading-color: #fff700;
+$border-color-default: #121212;
 $border-color-primary: #26282b;
 $border-hover-color: #ced9de;
 $border-focus-color: #bdcbd2;

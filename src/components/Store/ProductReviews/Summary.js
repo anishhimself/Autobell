@@ -24,7 +24,7 @@ const Summary = props => {
     totalRatings > 0 && Math.round(totalRatings / totalReviews);
 
   return (
-    <div className='bg-white p-4 box-shadow-primary review-summary'>
+    <div className='bg-black p-4 box-shadow-primary review-summary'>
       <h2 className='mb-0'>Rating</h2>
       {averageRating && (
         <div className='d-flex flex-wrap align-items-center mt-2'>
@@ -45,7 +45,7 @@ const Summary = props => {
         </div>
       )}
 
-      <hr style={{ border: '3px solid #f1f1f1' }} />
+      <hr style={{ border: '0.5px solid #f1f1f1' }} />
       {totalReviews > 0 ? (
         ratingSummary.map((r, obj) => (
           <div key={obj} className='d-flex align-items-center mb-2'>

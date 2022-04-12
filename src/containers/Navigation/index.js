@@ -179,7 +179,7 @@ class Navigation extends React.PureComponent {
                   />
                 )}
                 <Link to='/'>
-                  <icon className='logo' src="../../images/social-icons/facebook.svg"/>
+                  <icon className='logo' alt="logo">AutobellGears</icon>
                 </Link>
               </div>
             </Col>
